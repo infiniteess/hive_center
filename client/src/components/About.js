@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Footer from "./Footer";
-
+import AboutBanner from "./AboutBanner";
 
 export default class Company extends Component {
     render() {
@@ -13,8 +13,8 @@ export default class Company extends Component {
                 <br />
                 <br />
                 <br />
-
-                <h1>About Page</h1>
+                <AboutBanner />
+             
                 <br />
                 <br />
                 <br />
