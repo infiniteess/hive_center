@@ -21,7 +21,7 @@ const AboutBanner = (props) => {
 <h1 style={{textAlign:"center",margin:"10px"}}>About Us</h1>
 
 <br/>
-<Container className="themed-container" fluid={true}>
+<Container className="themed-container" /* fluid={true} */>
 <div class="row-container">
 <Row >
 <Col xs="12" sm="12" md={{ size: 5 }}  style={{height:"500px", width:'100%'}} > <img src={aboutus} style={{height:"100%", width:"100%"}} /></Col>

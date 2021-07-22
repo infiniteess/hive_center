@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Footer from "./Footer";
 import AboutBanner from "./AboutBanner";
-import ContactForm from './contact';
+import ContactForm from './Contact';
 
 export default class Company extends Component {
     render() {
@@ -21,7 +21,7 @@ export default class Company extends Component {
                 <br />
                 <br />
                 <br />
-<ContactForm />
+<ContactForm name='Seun' email='rime2seun@gmail.com' body='Hello Hello' />
                 <br />
                 <br />
                 <Footer />
